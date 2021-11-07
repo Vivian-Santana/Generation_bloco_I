@@ -2,20 +2,16 @@ programa
 {
 	
 	funcao inicio()
-	{
-		inteiro v=0
-		inteiro x[5]
-
-		para (v=0;v<5;v++)
-		{
-			escreva("ditigite um nuemro:")
-			leia(x[v])
-		}
-		para(v=0;v<5;v++)
-		{
-		escreva(x[v],"\t")
-		}
-	
+	{ inteiro anos, meses, dias, resp
+	escreva ("idade em anos: ")
+	leia (anos)
+	escreva("\nmeses: ")
+	leia (meses)
+	escreva ("\ndias: ")
+	leia (dias) 
+	escreva ("\nidade em dias: ")
+	resp=anos*365+meses*30+dias
+	escreva("\nSua idade em dias é: ", resp)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -23,7 +19,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 124; 
+ * @POSICAO-CURSOR = 147; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
