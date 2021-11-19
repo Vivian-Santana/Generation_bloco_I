@@ -4,7 +4,7 @@ public class Paciente {
 
 		String nomeCompleto;
 		String endereço;
-		int telefone;
+		String telefone;
 		int idade;
 		String sintomas;
 }
