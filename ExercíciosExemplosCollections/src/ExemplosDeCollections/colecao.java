@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
 
-public class Collections1 {
+public class colecao {
 	public static void main(String[] args) 
 	{
 		Collection<String> nomes = new ArrayList();
@@ -42,3 +42,4 @@ public class Collections1 {
 		System.out.println("Lista de nomes:"+ nomes);*/
 	}
 }
+

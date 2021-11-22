@@ -1,4 +1,4 @@
-package exercíciosDeRepetição;
+qqepackage exercíciosDeRepetição;
 
 import java.util.Scanner;
 
